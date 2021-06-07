@@ -1,0 +1,31 @@
+{
+  "name": "homeWorkWithParcel08",
+  "version": "1.0.0",
+  "description": "Home work 08 with parcel",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel index.html",
+    "build": "parcel build index.html --public-url /homeWorkWithParcel08/",
+    "deploy":"gh-pages -d dist",
+    "predeploy":"npm run build" 
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/k4mmm/homeWorkWithParcel08.git"
+  },
+  "keywords": [],
+  "author": "Konstantin Chaikovskyi <chaichka175@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/k4mmm/homeWorkWithParcel08/issues"
+  },
+  "homepage": "https://k4mmm.github.io/homeWorkWithParcel08/",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5",
+    "posthtml-include": "^1.7.1"
+  },
+  "dependencies": {
+    "gh-pages": "^3.2.0",
+    "parcel-plugin-nuke-dist": "^1.0.1"
+  }
+}
