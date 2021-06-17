@@ -9,4 +9,4 @@ var e=document.querySelector(".js-gallery"),t=document.querySelector(".js-lightb
 },{"./gallery-items":"ebo5"}],"Focm":[function(require,module,exports) {
 "use strict";require("./src/markup"),require("./src/modalImg"),require("./src/buttonKeydown");
 },{"./src/markup":"rW4W","./src/modalImg":"HCUH","./src/buttonKeydown":"dA6v"}]},{},["Focm"], null)
-//# sourceMappingURL=/homeWorkWithParcel08/homeWorkWithParcel08.ee31d417.js.map
+//# sourceMappingURL=/homeWorkWithParcel08/goit-js-hw-09-gallery.ee31d417.js.map
