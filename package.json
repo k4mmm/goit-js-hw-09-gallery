@@ -5,9 +5,9 @@
   "main": "index.js",
   "scripts": {
     "dev": "parcel ./src/index.html",
-    "build": "parcel build index.html --public-url /goit-js-hw-09-gallery/",
-    "deploy":"gh-pages -d dist",
-    "predeploy":"npm run build" 
+    "build": "parcel build ./src/index.html --public-url /goit-js-hw-09-gallery/",
+    "deploy": "gh-pages -d dist",
+    "predeploy": "npm run build"
   },
   "repository": {
     "type": "git",
