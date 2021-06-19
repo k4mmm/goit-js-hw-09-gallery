@@ -1,6 +1,6 @@
-import "./markup";
-import "./modalImg";
-import "./buttonKeydown";
+import "./js/markup";
+import "./js/modalImg";
+import "./js/buttonKeydown";
 
 
 

@@ -1,6 +1,6 @@
 const lightboxRef = document.querySelector('.js-lightbox');
 const lightboxImage = document.querySelector('.lightbox__image');
-import gallery from './gallery-items';
+import gallery from './gallery-items.js';
 
 window.addEventListener('keydown', (e) => {
     let indexRef = gallery.findIndex(
